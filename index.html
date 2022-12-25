@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--timestamp=1671960895-->
+<!--timestamp=1671964790-->
 
 <head>
   <meta charset="UTF-8">
@@ -10,25 +10,25 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
   <title>
-    Is Elasticsearch 8.2 Released?
+    Is Elasticsearch 8.6 Released?
   </title>
   <link rel="icon" href="https://released.info/assets/img/technologies/elasticsearch/elasticsearch.ico" type="image/svg+xml">
-  <meta name="description" content="Is Elasticsearch 8.2 Released?">
+  <meta name="description" content="Is Elasticsearch 8.6 Released?">
   <meta name="keywords" content="elastic, elasticsearch, release, date, when, nosql">
   <meta name=”robots” content="index, follow">
 
   <!-- facebook -->
   <meta property="og:url" content="https://is.elasticsearch.released.info" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Is Elasticsearch 8.2 Released?" />
-  <meta property="og:description" content="There is no information about Elasticsearch 8.2 release! Still waiting! #released.info" />
+  <meta property="og:title" content="Is Elasticsearch 8.6 Released?" />
+  <meta property="og:description" content="There is no information about Elasticsearch 8.6 release! Still waiting! #released.info" />
   <meta property="og:image" content="https://released.info/assets/img/technologies/elasticsearch/elasticsearch-logo.png" />
 
   <!-- twitter -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="ReleasedInfo" />
-  <meta name="twitter:title" content="Is Elasticsearch 8.2 Released?" />
-  <meta name="twitter:description" content="There is no information about Elasticsearch 8.2 release! Still waiting! #released.info" />
+  <meta name="twitter:title" content="Is Elasticsearch 8.6 Released?" />
+  <meta name="twitter:description" content="There is no information about Elasticsearch 8.6 release! Still waiting! #released.info" />
   <meta name="twitter:image" content="https://released.info/assets/img/technologies/elasticsearch/elasticsearch-logo.png" />
 
   <meta name="url" content="https://is.elasticsearch.released.info" />
@@ -70,7 +70,7 @@
           </li>
         </ul>
         <h2>
-          Is Elasticsearch 8.2 Released?
+          Is Elasticsearch 8.6 Released?
         </h2>
         <div class="row">
           <div class="col-lg-8">
@@ -99,10 +99,14 @@
         <div class="row">
           <div class="col-lg-8">
             <h3 id="highlightTextDescription1">
-              Elasticsearch 7.16 was released <span class="btn-primary">on 9th December 2021</span>
+              There is <span class="btn-primary">no information</span> about Elasticsearch 8.6 release date
             </h3>
           </div>
-          
+          <div class="col-lg-8">
+            <h4 id="highlightTextDescription2">
+              Elasticsearch 8.5 was released on <span class="btn-primary">1st November 2022</span>
+            </h4>
+          </div>
         </div>
         <div class="text-center">
           <a class="share-twitter" target="_blank">
@@ -113,7 +117,50 @@
       </div>
     </section>
 
-    
+    <section class="features-section">
+      <div class="container-lg">
+        <h2>
+          Meet Elasticsearch 8.6
+        </h2>
+        <div class="row mb-5">
+          <div class="col-md-5">
+
+            <ul>
+              <li>
+                Elasticsearch Search and Search Explain API endpoints change from v0 to v1
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                Fixes a known issue for logs and logging: Deployments do not collect Enterprise Search logs when using Docker images.
+              </li>
+            </ul>
+
+          </div>
+          <div class="col-md-5">
+            <ul>
+              <li>
+                Elasticsearch index-based engines and the App Search Elasticsearch search API are now generally available
+              </li>
+            </ul>
+            <ul>
+              <li>
+                Fixes a known issue for logs and logging: Deployments do not collect Enterprise Search logs when using Enterprise Search service account tokens.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-center">
+          <a target="_blank" href="https://www.elastic.co/guide/en/elasticsearch/reference/7.14/release-highlights.html" class="btn btn-primary btn-lg">Read more</a>
+        </div>
+      </div>
+      <div class="logo-container">
+        <span role="img" aria-label="${configuration.logoAlt2}"
+          style="background-image: url(&#39;https://released.info/assets/img/technologies/elasticsearch/elasticsearch-logo2.png&#39;);">
+        </span>
+      </div>
+    </section>
 
     <section class="posts-section">
       <div class="container-lg">
@@ -244,7 +291,11 @@
     <section class="about-section">
       <div class="container-lg">
         <div>
-  <h2>About Elasticsearch</h2>
+  <h1>Version</h1>
+  You can check the version of Elasticsearch you are using by running the following command in the terminal:
+  <pre>curl -XGET 'http://localhost:9200'</pre>
+  The response should include a "version" field with the version number of Elasticsearch.
+  <h1>About Elasticsearch</h1>
   Elasticsearch is a component of the Elastic Stack, a set of tools oriented for data storage, analysis, visualization,
   etc.
   Elastic Stack, and therefore Elasticsearch supports all kinds of data, including strings, geospatial data, numbers,
